@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description"
+        content="Personal portfolio of a creative developer specializing in building premium web experiences.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">UMA<span class="highlight">.</span></a>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Dark and Light Mode">
+                <i class="fas fa-moon"></i>
+            </div>
+
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="profile-status">
+                    <span class="status-dot"></span> Available for opportunities
+                </div>
+                <div class="hero-content">
+                    <span class="hero-subtitle">Full Stack Developer</span>
+                    <h1 class="hero-title">Hi, I'm <br> <span class="gradient-text">C Uma Mahesh</span></h1>
+                    <p class="hero-description">Building the Life of Future. I am a Civil Engineering student passionate
+                        about exploring the world of Software Development.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Abstract geometric shape or 3d element generated via CSS -->
+                    <div class="abstract-shape">
+                        <div class="circle c1"></div>
+                        <div class="circle c2"></div>
+                        <div class="circle c3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <p class="section-subtitle">My technical proficiency and tools.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Backend & Core -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <h3><i class="fa-solid fa-server" style="color: #64748b;"></i> Backend & Core</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-tag"><i class="fa-brands fa-java" style="color: #007396;"></i> Java</div>
+                            <div class="skill-tag"><i class="fa-brands fa-python" style="color: #3776AB;"></i> Python
+                            </div>
+                            <div class="skill-tag"><i class="fa-solid fa-database" style="color: #4479A1;"></i> MySQL
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend Development -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <h3><i class="fa-solid fa-code" style="color: #64748b;"></i> Frontend Dev</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-tag"><i class="fa-brands fa-react" style="color: #61DAFB;"></i> React
+                            </div>
+                            <div class="skill-tag"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML5
+                            </div>
+                            <div class="skill-tag"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i> CSS3
+                            </div>
+                            <div class="skill-tag"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Environment -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <h3><i class="fa-solid fa-wrench" style="color: #64748b;"></i> Tools</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-tag"><i class="fa-brands fa-git-alt" style="color: #F05032;"></i> Git
+                            </div>
+                            <div class="skill-tag"><i class="fa-solid fa-code" style="color: #007ACC;"></i> VS Code
+                            </div>
+                            <div class="skill-tag"><i class="fa-solid fa-terminal" style="color: #2C2255;"></i> Eclipse
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI Tools -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <h3><i class="fa-solid fa-robot" style="color: #64748b;"></i> AI Integration</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-tag"><i class="fa-solid fa-wand-magic-sparkles"
+                                    style="color: #10A37F;"></i>
+                                ChatGPT</div>
+                            <div class="skill-tag"><i class="fa-solid fa-gem" style="color: #8E24AA;"></i> Gemini</div>
+                            <div class="skill-tag"><i class="fa-brands fa-google" style="color: #DB4437;"></i> Google
+                                Antigravity</div>
+                            <div class="skill-tag"><i class="fa-solid fa-brain" style="color: #FF5722;"></i> Perplexity
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest <span class="gradient-text">Work</span></h2>
+                    <p class="section-subtitle">A showcase of my recent work.</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img"
+                                style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); display:flex; align-items:center; justify-content:center; color:white; font-size:3rem;">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-desc">A modern, responsive portfolio website showcasing my skills and
+                                projects. Built with a focus on performance and premium animations.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Mahesh80082" class="link-item"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="#" class="link-item"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img"
+                                style="background: linear-gradient(45deg, #8E2DE2, #4A00E0); display:flex; align-items:center; justify-content:center; color:white; font-size:3rem;">
+                                <i class="fa-solid fa-rocket"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Future Project</h3>
+                            <p class="project-desc">Exciting things are in the works! I'm constantly learning and
+                                building new applications. Stay tuned for what's next.</p>
+                            <div class="project-tags">
+                                <span>In Development</span>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section bg-alt">
+            <div class="container about-container">
+                <div class="section-header">
+                    <h2 class="section-title">Transforming Ideas Into <br> <span class="gradient-text">Digital
+                            Reality</span></h2>
+                    <p class="section-subtitle">Bridging the gap between Civil Engineering & Software Development.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon-glow"><i class="fa-solid fa-book-open"></i></div>
+                        <h3>My Story</h3>
+                        <p>From a final-year Civil Engineering student to a budding Software Developer. My transition is
+                            fueled by a passion for logic and problem-solving, currently honed through a Java Full Stack
+                            internship.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon-glow"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3>My Vision</h3>
+                        <p>To design and develop innovative web and mobile applications that solve real-life problems. I
+                            aim to merge engineering precision with modern web technologies to deliver true value.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon-glow"><i class="fa-solid fa-code-branch"></i></div>
+                        <h3>Technical Journey</h3>
+                        <p>Hands-on with HTML, C, Python, and Core Java. I am an enthusiastic learner, actively
+                            strengthening my expertise in building scalable software solutions and adapting to emerging
+                            trends.</p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">Fresher</span>
+                        <span class="stat-label">Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Web Dev</span>
+                        <span class="stat-label">Domain</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+                    <p class="section-subtitle">My professional journey in the tech industry.</p>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-card glow-border">
+                        <div class="exp-header">
+                            <div class="exp-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div class="exp-meta">
+                                <h3>Java Full Stack Intern</h3>
+                                <p class="company">TechnoHacks Edutech</p>
+                                <span class="exp-period"><i class="fa-regular fa-calendar"></i> Present</span>
+                            </div>
+                        </div>
+                        <div class="exp-body">
+                            <ul class="exp-list">
+                                <li>Actively developing scalable web applications using <strong>Java</strong>,
+                                    <strong>HTML</strong>, and <strong>CSS</strong>.
+                                </li>
+                                <li>Gaining hands-on expertise in backend logic and frontend integration.</li>
+                                <li>Collaborating with cross-functional teams to debug and optimize code performance.
+                                </li>
+                                <li>Learning industry best practices for structured software development.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">My academic background.</p>
+                </div>
+                <div class="education-grid">
+                    <!-- B.Tech -->
+                    <div class="education-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="year">2023 - 2026</span>
+                            <h3>Bachelor of Technology</h3>
+                            <p class="school">YSR Engineering College of YVU</p>
+                            <p class="description">Civil Engineering. Transitioning to Software Development fueled by a
+                                passion for technology.</p>
+                        </div>
+                    </div>
+
+                    <!-- Diploma -->
+                    <div class="education-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-scroll"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="year">2020 - 2023</span>
+                            <h3>Diploma</h3>
+                            <p class="school">ESC Government Polytechnic College</p>
+                            <p class="description">Civil Engineering. Built a strong foundation in engineering
+                                principles and analytical thinking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have a project in mind? Let's work together.</p>
+                </div>
+
+                <div class="contact-info-wrapper" style="text-align: center; margin-bottom: 2rem;">
+                    <p>Email: <a href="mailto:umamahesh50056@gmail.com" class="highlight">umamahesh50056@gmail.com</a>
+                    </p>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="social-links">
+                    <a href="https://github.com/Mahesh80082" class="social-icon" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/umamahesh-ch" class="social-icon" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:umamahesh50056@gmail.com" class="social-icon"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> C Uma Mahesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
